@@ -11,7 +11,7 @@ chmod +x run.sh
 ./run.sh
 ```
 
-To connect to the server:
+To connect to the server as a mutual-authentication client (replace <target address> as appropriate):
 
 ```
 curl -b mycookies -L -k -v --key ~/c3dlab1/conf/ssl/myusername4.key --cert ~/c3dlab1/conf/ssl/myusername4.crt https://<target address>/
